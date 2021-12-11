@@ -1,0 +1,4 @@
+export const SERVICES_URL = "http://authentication.web.elasticloud.uy";
+export const AG_AUTH_URL_CIUDADANO = `https://auth-testing.iduruguay.gub.uy/oidc/v1/authorize?client_id=890192&redirect_uri=http://vacunas07.web.elasticloud.uy/callback&response_type=code&scope=openid%20personal%20email%20nombre_completo%20personal_info`;
+export const AG_AUTH_URL_VACUNADOR = `https://auth-testing.iduruguay.gub.uy/oidc/v1/authorize?client_id=890192&redirect_uri=http://vacunadores07.web.elasticloud.uy/callback&response_type=code&scope=openid%20personal%20email%20nombre_completo%20personal_info`;
+export const AG_AUTH_URL_MOVIL = `https://auth-testing.iduruguay.gub.uy/oidc/v1/authorize?client_id=890192&redirect_uri=http://vacunas07.web.elasticloud.uy/callback&response_type=code&scope=openid%20personal%20email%20nombre_completo%20personal_info`;

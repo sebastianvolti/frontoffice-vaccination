@@ -1,0 +1,149 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "vaccinations": 
+  [
+    {
+        "capacidad": 1800,
+        "code": "CODSAL1",
+        "depto": "Salto",
+        "vaccinationPostList": [
+            {
+                "capacity": 800,
+                "nro": 4,
+                "schedule": "Matutino"
+            },
+            {
+                "capacity": 1000,
+                "nro": 5,
+                "schedule": "Vespertino"
+            }
+        ]
+    },
+    {
+        "capacidad": 20000,
+        "code": "CODMVD1",
+        "depto": "Montevideo",
+        "vaccinationPostList": [
+            {
+                "capacity": 8000,
+                "nro": 6,
+                "schedule": "Matutino"
+            },
+            {
+                "capacity": 4000,
+                "nro": 7,
+                "schedule": "Vespertino"
+            },
+            {
+                "capacity": 2000,
+                "nro": 8,
+                "schedule": "Matutino"
+            },
+            {
+                "capacity": 6000,
+                "nro": 9,
+                "schedule": "Matutino"
+            }
+        ]
+    },
+    {
+        "capacidad": 2000,
+        "code": "CODROC1",
+        "depto": "Rocha",
+        "vaccinationPostList": [
+            {
+                "capacity": 1000,
+                "nro": 1,
+                "schedule": "Matutino"
+            },
+            {
+                "capacity": 1000,
+                "nro": 2,
+                "schedule": "Vespertino"
+            }
+        ]
+    },
+    {
+        "capacidad": 1500,
+        "code": "CODMVD2",
+        "depto": "Montevideo",
+        "vaccinationPostList": [
+            {
+                "capacity": 500,
+                "nro": 10,
+                "schedule": "Vespertino"
+            },
+            {
+                "capacity": 500,
+                "nro": 11,
+                "schedule": "Matutino"
+            },
+            {
+                "capacity": 500,
+                "nro": 12,
+                "schedule": "Matutino"
+            }
+        ]
+    },
+    {
+        "capacidad": 1500,
+        "code": "CODSAL3",
+        "depto": "Salto",
+        "vaccinationPostList": [
+            {
+                "capacity": 500,
+                "nro": 16,
+                "schedule": "Vespertino"
+            },
+            {
+                "capacity": 500,
+                "nro": 17,
+                "schedule": "Matutino"
+            },
+            {
+                "capacity": 500,
+                "nro": 18,
+                "schedule": "Matutino"
+            }
+        ]
+    },
+    {
+        "capacidad": 1500,
+        "code": "CODSAL2",
+        "depto": "Salto",
+        "vaccinationPostList": [
+            {
+                "capacity": 500,
+                "nro": 19,
+                "schedule": "Vespertino"
+            },
+            {
+                "capacity": 500,
+                "nro": 20,
+                "schedule": "Matutino"
+            },
+            {
+                "capacity": 500,
+                "nro": 21,
+                "schedule": "Matutino"
+            }
+        ]
+    }
+]
+}
